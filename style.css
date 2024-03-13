@@ -1,0 +1,48 @@
+/*.animation {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    font-size: 275px;
+    background: linear-gradient(rgb(19, 159, 201), rgb(17, 215, 7));
+
+
+    animation: 7s ease-in 0s infinite running coldplay;
+}
+
+@keyframes coldplay {
+    0% { background: red; }
+    20% { background: yellow; }
+    40% { background: goldenrod; }
+    60% { background: rgb(133, 20, 77); }
+    80% { background: blue; }
+    100% { background: tomato; }
+}
+*/
+
+
+#sy {
+    margin-left: 250px;
+}
+#sk {
+    margin-left: 200px;
+}
+
+h1 {
+    text-shadow: 0px 0px 5px yellow , 0px -5px 5px red;
+    font-size: 50px;
+    margin-left: 10%;
+    text-align: center;
+}
+p{
+    color : dark grey;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+#hello {
+    text-align: center;
+    text-shadow: 0px 0px 5px rgb(142, 237, 26) , 0px -5px 5px rgb(9, 238, 177);
+    margin-left: 10%;
+}
+
